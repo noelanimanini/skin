@@ -6,7 +6,7 @@
   padding: 10px;
   text-align: left;
   transition: border 0.1s, background 0.5s;
-  .post-text {
+  .product-text {
     overflow: hidden;
   }
   a,
@@ -24,4 +24,23 @@
 
 .product-content {
   display: none;
+}
+
+.solid-color-mode,
+.border-color-mode {
+  .product-text {
+    text-align: center;
+  }
+}
+
+.solid-color-mode {
+  .product-text {
+    padding: 10px;
+    background-color: white;
+    border-radius: 25px;
+  }
+}
+
+.border-color-mode {
+  background-color: white;
 }
