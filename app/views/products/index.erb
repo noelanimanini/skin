@@ -1,9 +1,13 @@
-<head> 
+<div class="container">
+  <div class="row">
+    <div id="side-menu"  class="col-sm-3">
+    </div><!-- side-menu -->
 
-</head> 
+    <div id="main-content" class="col-sm-9">
 
-<body class="body"> 
-<% @products.each do |product|%>
-  <p> <%= product.name %> </p>
-  <% end %> 
-</body> 
+        <%= render @products %>
+    </div>
+
+  </div>
+</div>
+

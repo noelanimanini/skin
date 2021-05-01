@@ -19,7 +19,7 @@ rm_array.each do |product|
   )
 end 
 
-u1 = User.create(username: ENV["USER"], password: 'sample')
+u1 = User.create(name: ENV["USER"], email: 'noelani.villanueva@gmail.com', password: 'sample', password_confirmation: 'sample')
 
 50.times do 
   Review.create(comment: "does this work?", rating: rand(1...5), user_id: u1.id, product_id: p1.id)
