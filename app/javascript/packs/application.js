@@ -10,5 +10,6 @@ require("@rails/activestorage").start();
 require("channels");
 require("jquery");
 require("products/style");
+require("products/modal");
 
 console.log("hello??");
